@@ -1,0 +1,21 @@
+{
+  "name": "cpp-include-sorter",
+  "displayName": "C/C++ Include Sorter",
+  "description": "Sorts and deduplicates a selected block of C/C++ include directives.",
+  "version": "0.1.0",
+  "publisher": "isr-lab",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": ["Other"],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "cppIncludeSorter.sortSelection",
+        "title": "Sort Selected Includes",
+        "category": "C/C++"
+      }
+    ]
+  }
+}
